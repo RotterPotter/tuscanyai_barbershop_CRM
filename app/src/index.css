@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 12px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 0 10px 10px 0; /* Only round the right side */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.274);
+  border-radius: 10px; /* Only round the right side */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.146);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F3F2EF;
+}
